@@ -185,9 +185,13 @@ nav a:hover{
 }
 
 .career-stat {
+    margin-top: 1rem;
     text-align: left;
     padding-top: 1rem;
     font-weight: 400;
+    border: 1px solid #141E46;
+    border-radius: 10px;
+    padding: 2rem;
 }
 
 .career-stat p {
@@ -213,4 +217,9 @@ nav a:hover{
     width: 350px;
     height: 200px;
     border-radius: 10px;
+    transition: all ease-in .3s ;
+}
+
+.career-image img:hover {
+    filter: brightness(60%);
 }
