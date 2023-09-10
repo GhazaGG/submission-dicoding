@@ -311,3 +311,135 @@ footer p{
     font-size: 15px;
     font-style: italic;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Lato', sans-serif;
+        scroll-behavior: smooth;
+    }
+    
+
+    nav {
+        font-size: 20px;
+    }
+    .home-container {
+        width: 100vw;
+    }
+    .home .img img{
+        margin-top: 300px;
+        width: 700px;
+        border-radius: 10px;
+    }
+    
+    .home h1 {
+        font-size: 100px;
+        font-weight: 900;
+    }
+    
+    .home h3{
+        margin: 0 60px;
+        margin-bottom: -10px;
+        text-align: left;
+        font-size: 20px;
+    }
+    .biography-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .biography-container .img{
+        width:100%;
+    }
+
+    .biography-container .img img{
+        width: 400px;
+        margin: 100px auto;
+    }
+
+    .biography {
+        width:100%;
+    }
+    .biography h3 {
+        text-align: center;
+        padding-top: 0rem;
+        font-size: 40px;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+    .biography article{
+        width: 80%;
+        font-size: 15px;
+        padding-bottom: 1rem;
+    }
+
+    .team-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .career {
+        width: 100%;
+        height: 60vh;
+        margin-top: 30px;
+        padding-top: 20px;
+    }    
+
+    .career button{
+        font-weight: 600;
+        margin-right: 5px;
+        font-size: 15px;
+        cursor: pointer;
+        width:100px;
+        height: 40px;
+        color: #141E46;
+        border: 1px solid #141E46;
+        border-radius: 10px;
+        background-color: transparent;
+        transition: all ease-in .3s ;
+    }
+    .career-image {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 10px;
+        align-items: center;
+    }
+
+    .career-image img {
+        object-fit: cover;
+        width: 250px;
+        height: 100px;
+        border-radius: 10px;
+        margin-top: 5px;
+        transition: all ease-in .3s ;
+    }
+    
+    .card-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 1rem 1rem;
+    }
+    .card-wrapper div{
+        margin-top: 2rem;
+        height: 400px;
+        width: 300px;
+    }
+
+    .image-career-page img {
+        display: none;
+    }
+
+    .career-container {
+        background-color: #FFF5E0;
+        color: #141E46;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    
+    footer {
+        width: 100%;
+    }
+}
