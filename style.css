@@ -130,6 +130,27 @@ nav a:hover{
     text-transform: uppercase;
 }
 
+.team-container {
+    display: flex;
+}
+
+
+.image-career-page {
+    width: 30%;
+    padding-left: 5rem;    
+}
+
+
+.image-career-page img {
+    width: 350px;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 0px auto;
+    border-radius: 10px;
+    /* padding-left: 2rem; */
+}
+
 .career {
     width: 70%;
     height: 60vh;
@@ -139,23 +160,57 @@ nav a:hover{
 
 
 .career button{
+    font-weight: 600;
     margin-right: .5rem;
     font-size: 15px;
     cursor: pointer;
     width:150px;
     height: 40px;
+    color: #141E46;
+    border: 1px solid #141E46;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: all ease-in .3s ;
+}
+
+.career button:hover{
+    background-color: #141E46;
+    color: #FFF5E0;
+}
+
+.career .button-active {
     background-color: #141E46;
     color: #FFF5E0;
     border: none;
-    border-radius: 10px;
 }
 
 .career-stat {
     text-align: left;
     padding-top: 1rem;
-    padding-left: 1rem;
+    font-weight: 400;
+}
+
+.career-stat p {
+    line-height: 30px;
+    font-size: 15px;
 }
 
 .career-stat ul{
     line-height: 30px;
+    font-size: 15px;
+    padding-left: 25px;
+}
+
+.career-image {
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+.career-image img {
+    object-fit: cover;
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
 }
