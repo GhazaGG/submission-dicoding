@@ -382,7 +382,7 @@ footer p{
 
     .career {
         width: 100%;
-        height: 60vh;
+        height: 100vh;
         margin-top: 30px;
         padding-top: 20px;
     }
@@ -453,6 +453,12 @@ footer p{
         padding-top: 50px;
         padding-bottom: 10px;
         width: 100%;
+    }
+
+    .achievement-container{
+
+        padding-top: 100px;
+
     }
     
     footer {
